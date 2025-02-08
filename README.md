@@ -28,4 +28,23 @@ A functional YouTube clone built with React, Redux, Node.js, Express, MongoDB, a
    ```bash
    git clone https://github.com/akanshamore/youtube-clone
    cd youtube-clone
-# Youtube-Clone-
+
+2. cd frontend  
+npm install  
+
+cd backend  
+npm install
+
+3. env
+
+PORT=3000  
+MONGO_URI=your_mongodb_connection_string  
+JWT_SECRET=your_secret_key  
+
+
+4. cd backend  
+npm run dev  
+
+cd frontend  
+yarn dev  
+
